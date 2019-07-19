@@ -1,0 +1,37 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="CMake.ReloadCMakeProject">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DomElementsTreeView.AddElement" />
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="EditorLeftWithSelection" />
+  <action id="EditorRightWithSelection" />
+  <action id="EditorSplitLine" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="Refresh" />
+  <action id="Rerun" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="UsageView.Rerun" />
+  <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
+</keymap>
