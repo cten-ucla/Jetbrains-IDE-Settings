@@ -1,0 +1,48 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="ChangesView.Move" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="PascalDeVink.thesaurusLookup">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="SetShortcutAction" />
+  <action id="Tool_External Tools_LTSpice">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="Tool_External Tools_MacSpice">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="Tool_External Tools_Maple">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
+</keymap>

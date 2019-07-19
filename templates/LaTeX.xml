@@ -1,0 +1,11 @@
+<templateSet group="LaTeX">
+  <template name="table" value="\begin{table}[$pos$]\centering&#10;    \begin{tabular}{@{}$cols$@{}} \toprule[1.5pt]&#10;        $END$ &amp; \\ \midrule&#10;         &amp; \\ \bottomrule[1.5pt]&#10;    \end{tabular}%&#10;    \caption{$caption$}%&#10;    \label{table:$label$}%&#10;\end{table}" description="Generate a LaTeX Table" toReformat="false" toShortenFQNames="true">
+    <variable name="pos" expression="" defaultValue="H" alwaysStopAt="true" />
+    <variable name="cols" expression="" defaultValue="lll" alwaysStopAt="true" />
+    <variable name="caption" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LATEX" value="true" />
+    </context>
+  </template>
+</templateSet>

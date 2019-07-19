@@ -1,0 +1,23 @@
+<toolSet name="External Tools">
+  <tool name="Maple" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Library/Frameworks/Maple.framework/Versions/2017/bin/maple" />
+      <option name="PARAMETERS" value="-q $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Maple.framework/Versions/2017/bin" />
+    </exec>
+  </tool>
+  <tool name="MacSpice" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/MacSpice.app/Contents/MacOS/MacSpice" />
+      <option name="PARAMETERS" value="-b $FilePath$ -o &quot;$FileNameWithoutAllExtensions$.txt&quot;" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="LTSpice" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/LTspice.app/Contents/MacOS/LTspice" />
+      <option name="PARAMETERS" value="-b $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>

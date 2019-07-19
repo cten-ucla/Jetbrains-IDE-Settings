@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="LaTeX/Move section contents to seperate file" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="maple.mpl" reformat="true" live-template-enabled="true" />
+      <template name="Matlab File.m" reformat="true" live-template-enabled="true" />
+      <template name="SPICE.cir" reformat="true" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>
