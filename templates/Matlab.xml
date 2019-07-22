@@ -1,0 +1,100 @@
+<templateSet group="Matlab">
+  <template name="%title" value="%==============================================================================&#10;%| $title$|&#10;%==============================================================================" description="%-Commented Section Title" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="BIBTEX" value="false" />
+      <option name="Bash" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LATEX" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="R" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="%block" value="%==============================================================================&#10;% $block_name$&#10;%------------------------------------------------------------------------------&#10;%&#10;%==============================================================================" description="%-Commented Block" toReformat="false" toShortenFQNames="true">
+    <variable name="block_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="BIBTEX" value="false" />
+      <option name="Bash" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LATEX" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="R" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="%tl" value="%==============================================================================" description="%-Commented Thick Line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="BIBTEX" value="false" />
+      <option name="Bash" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LATEX" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="R" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="%l" value="%------------------------------------------------------------------------------" description="%-Commented Line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="BIBTEX" value="false" />
+      <option name="Bash" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LATEX" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="R" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
