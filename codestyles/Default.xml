@@ -1,6 +1,19 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="79" />
   <option name="SOFT_MARGINS" value="79" />
+  <Objective-C>
+    <option name="SPACE_BEFORE_SUPERCLASS_COLON" value="false" />
+    <option name="SPACE_BEFORE_INIT_LIST_COLON" value="false" />
+    <option name="SPACE_BEFORE_POINTER_IN_DECLARATION" value="false" />
+    <option name="SPACE_AFTER_POINTER_IN_DECLARATION" value="true" />
+    <option name="SPACE_BEFORE_REFERENCE_IN_DECLARATION" value="false" />
+    <option name="SPACE_AFTER_REFERENCE_IN_DECLARATION" value="true" />
+    <option name="SPACE_BETWEEN_OPERATOR_AND_PUNCTUATOR" value="true" />
+  </Objective-C>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+  </codeStyleSettings>
   <codeStyleSettings language="Python">
     <option name="RIGHT_MARGIN" value="80" />
     <option name="WRAP_ON_TYPING" value="0" />
