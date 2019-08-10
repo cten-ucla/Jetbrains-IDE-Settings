@@ -8,5 +8,6 @@
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern pattern="\bremove\sme\b" />
+    <pattern pattern="\bnote\b.*" />
   </component>
 </application>
