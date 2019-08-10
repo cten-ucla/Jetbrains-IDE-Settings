@@ -1,18 +1,11 @@
 <scheme name="_@user_Nord" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-06-24T09:24:06</property>
+    <property name="created">2019-08-10T12:18:36</property>
     <property name="ide">Python</property>
-    <property name="ideVersion">2019.1.3.0.0</property>
-    <property name="modified">2019-08-10T11:07:03</property>
+    <property name="ideVersion">2019.2.0.0</property>
+    <property name="modified">2019-08-10T12:18:58</property>
     <property name="originalScheme">Nord</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="18" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-  <option name="CONSOLE_FONT_NAME" value="Hack" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a3be8c" />
     <option name="ANNOTATIONS_COLOR" value="d8dee9" />
@@ -20,10 +13,18 @@
     <option name="CARET_ROW_COLOR" value="3b4252" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2e3440" />
     <option name="DELETED_LINES_COLOR" value="bf616a" />
-    <option name="DOCUMENTATION_COLOR" value="434c5e" />
+    <option name="DIAGRAM_ANNOTATION_EDGE" value="d08770" />
+    <option name="DIAGRAM_DEFAULT_EDGE" value="d8dee9" />
+    <option name="DIAGRAM_GENERALIZATION_EDGE" value="88c0d0" />
+    <option name="DIAGRAM_INNER_EDGE" value="8fbcbb" />
+    <option name="DIAGRAM_NODE_BACKGROUND" value="4c566a" />
+    <option name="DIAGRAM_NODE_HEADER" value="4c566a" />
+    <option name="DIAGRAM_NOTE_BACKGROUND" value="434c5e" />
+    <option name="DIAGRAM_NOTE_BORDER" value="434c5e" />
+    <option name="DIAGRAM_REALIZATION_EDGE" value="a3be8c" />
+    <option name="DOCUMENTATION_COLOR" value="3b4252" />
     <option name="ERROR_HINT" value="434c5e" />
     <option name="FILESTATUS_ADDED" value="945e" />
-    <option name="FILESTATUS_COPIED" value="a7700" />
     <option name="FILESTATUS_DELETED" value="607d8b" />
     <option name="FILESTATUS_HIJACKED" value="b28c00" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="773895" />
@@ -36,8 +37,6 @@
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="4264ad" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="4264ad" />
     <option name="FILESTATUS_OBSOLETE" value="7c7c00" />
-    <option name="FILESTATUS_RENAMED" value="7c7c" />
-    <option name="FILESTATUS_SUPPRESSED" value="" />
     <option name="FILESTATUS_SWITCHED" value="8978f" />
     <option name="FILESTATUS_UNKNOWN" value="993300" />
     <option name="FILESTATUS_addedOutside" value="945e" />
@@ -49,7 +48,7 @@
     <option name="LINE_NUMBERS_COLOR" value="4c566a" />
     <option name="METHOD_SEPARATORS_COLOR" value="d8dee9" />
     <option name="MODIFIED_LINES_COLOR" value="ebcb8b" />
-    <option name="NOTIFICATION_BACKGROUND" value="d8dee9" />
+    <option name="NOTIFICATION_BACKGROUND" value="4c566a" />
     <option name="QUESTION_HINT" value="434c5e" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="4c566a" />
@@ -350,7 +349,6 @@
     <option name="CONSOLE_USER_INPUT">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -766,10 +764,10 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d8dee9" />
-        <option name="BACKGROUND" value="bf616a" />
+        <option name="FOREGROUND" value="bf616a" />
+        <option name="EFFECT_COLOR" value="bf616a" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -836,21 +834,44 @@
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
+    <option name="GO_BAD_TOKEN">
+      <value>
+        <option name="BACKGROUND" value="bf616a" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="81a1c1" />
+      </value>
+    </option>
     <option name="GO_BUILTIN_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="GO_LOCAL_CONSTANT">
+    <option name="GO_BUILTIN_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="d8dee9" />
+        <option name="FOREGROUND" value="81a1c1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_INTERFACE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_EXPORTED_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="GRID_ERROR_VALUE">
@@ -1019,6 +1040,9 @@
     </option>
     <option name="JAVA_KEYWORD" baseAttributes="" />
     <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
@@ -1036,6 +1060,22 @@
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value>
         <option name="FOREGROUND" value="5e81ac" />
+      </value>
+    </option>
+    <option name="JUPYTER_CELL_MARKER">
+      <value>
+        <option name="FOREGROUND" value="616e88" />
+      </value>
+    </option>
+    <option name="JUPYTER_INLINE_VALUES">
+      <value>
+        <option name="FOREGROUND" value="616e88" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JUPYTER_SELECTED_CELL">
+      <value>
+        <option name="EFFECT_COLOR" value="d8dee9" />
       </value>
     </option>
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
@@ -1162,6 +1202,11 @@
         <option name="FOREGROUND" value="ebcb8b" />
       </value>
     </option>
+    <option name="LOG_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="b48ead" />
+      </value>
+    </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="bf616a" />
@@ -1170,6 +1215,16 @@
     <option name="LOG_EXPIRED_ENTRY">
       <value>
         <option name="FOREGROUND" value="616e88" />
+      </value>
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+      </value>
+    </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="8fbcbb" />
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
@@ -1208,6 +1263,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="MAKO.SUBSTITUTION" baseAttributes="" />
     <option name="MARKDOWN_BLOCK_QUOTE">
       <value>
         <option name="FOREGROUND" value="616e88" />
@@ -1296,7 +1352,7 @@
     </option>
     <option name="MARKDOWN_LINK_TEXT">
       <value>
-        <option name="FOREGROUND" value="a3be8c" />
+        <option name="FOREGROUND" value="88c0d0" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1308,6 +1364,12 @@
     <option name="MARKDOWN_TABLE_SEPARATOR">
       <value>
         <option name="FOREGROUND" value="4c566a" />
+      </value>
+    </option>
+    <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="bf616a" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -1369,21 +1431,43 @@
         <option name="FOREGROUND" value="d08770" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
-      <value>
-        <option name="FOREGROUND" value="88c0d0" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
+    <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
-        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.BUILTIN_NAME">
+      <value>
+        <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="d08770" />
-        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.FSTRING_FRAGMENT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="5e81ac" />
+      </value>
+    </option>
+    <option name="PY.FSTRING_FRAGMENT_COLON">
+      <value>
+        <option name="FOREGROUND" value="81a1c1" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_USAGE">
+      <value>
+        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
@@ -1391,6 +1475,7 @@
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="QL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1647,6 +1732,11 @@
         <option name="FOREGROUND" value="8fbcbb" />
       </value>
     </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="FOREGROUND" value="d8dee9" />
+      </value>
+    </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="8fbcbb" />
@@ -1713,7 +1803,7 @@
         <option name="FOREGROUND" value="bf616a" />
         <option name="EFFECT_COLOR" value="bf616a" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="" />
