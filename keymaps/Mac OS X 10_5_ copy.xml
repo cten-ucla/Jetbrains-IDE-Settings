@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="CMake.ReloadCMakeProject">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="ChangesView.Move" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jdbc.Execute" />
