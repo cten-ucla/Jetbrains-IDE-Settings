@@ -5,6 +5,7 @@
     <option name="ignoredIdentifiers">
       <list>
         <option value="src.courses.quarter.*" />
+        <option value="lib.Element" />
       </list>
     </option>
   </inspection_tool>
