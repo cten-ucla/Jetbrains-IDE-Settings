@@ -21,7 +21,7 @@
       <removed_mapping pattern="ascx" approved="true" type="textmate" />
       <removed_mapping ext="ascx" approved="true" type="textmate" />
       <removed_mapping pattern="jscsrc" approved="true" type="textmate" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="textmate" />
       <removed_mapping pattern="bat" approved="true" type="textmate" />
       <removed_mapping pattern="bas" approved="true" type="textmate" />
       <removed_mapping ext="bas" approved="true" type="textmate" />
@@ -64,6 +64,7 @@
       <removed_mapping ext="ejs" approved="true" type="textmate" />
       <removed_mapping pattern="cs" approved="true" type="textmate" />
       <removed_mapping pattern="r" approved="true" type="textmate" />
+      <removed_mapping ext="r" approved="true" type="textmate" />
       <removed_mapping pattern="t" approved="true" type="textmate" />
       <removed_mapping ext="t" approved="true" type="textmate" />
       <removed_mapping pattern="rdf" approved="true" type="textmate" />
@@ -152,7 +153,7 @@
       <removed_mapping ext="install" approved="true" type="textmate" />
       <removed_mapping pattern="rjs" approved="true" type="textmate" />
       <removed_mapping ext="rjs" approved="true" type="textmate" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="textmate" />
       <removed_mapping pattern="cmd" approved="true" type="textmate" />
       <removed_mapping pattern="fsproj" approved="true" type="textmate" />
       <removed_mapping ext="fsproj" approved="true" type="textmate" />
@@ -405,13 +406,15 @@
       <removed_mapping ext="bash_aliases" approved="true" type="textmate" />
       <removed_mapping pattern="rprofile" approved="true" type="textmate" />
       <removed_mapping ext="rprofile" approved="true" type="textmate" />
+      <removed_mapping pattern="mpl" approved="true" type="textmate" />
+      <removed_mapping ext="mpl" approved="true" type="textmate" />
       <removed_mapping pattern="props" approved="true" type="textmate" />
       <removed_mapping ext="props" approved="true" type="textmate" />
       <removed_mapping pattern="*.log.?" approved="true" type="textmate" />
       <removed_mapping ext="*.log.?" approved="true" type="textmate" />
       <removed_mapping pattern="psrc" approved="true" type="textmate" />
       <removed_mapping ext="psrc" approved="true" type="textmate" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="textmate" />
       <removed_mapping pattern="log" approved="true" type="textmate" />
       <removed_mapping pattern="vbs" approved="true" type="textmate" />
       <removed_mapping ext="vbs" approved="true" type="textmate" />
