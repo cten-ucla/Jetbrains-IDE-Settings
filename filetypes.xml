@@ -21,7 +21,7 @@
       <removed_mapping pattern="ascx" approved="true" type="textmate" />
       <removed_mapping ext="ascx" approved="true" type="textmate" />
       <removed_mapping pattern="jscsrc" approved="true" type="textmate" />
-      <removed_mapping ext="bat" approved="true" type="textmate" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="bat" approved="true" type="textmate" />
       <removed_mapping pattern="bas" approved="true" type="textmate" />
       <removed_mapping ext="bas" approved="true" type="textmate" />
@@ -153,7 +153,7 @@
       <removed_mapping ext="install" approved="true" type="textmate" />
       <removed_mapping pattern="rjs" approved="true" type="textmate" />
       <removed_mapping ext="rjs" approved="true" type="textmate" />
-      <removed_mapping ext="cmd" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="cmd" approved="true" type="textmate" />
       <removed_mapping pattern="fsproj" approved="true" type="textmate" />
       <removed_mapping ext="fsproj" approved="true" type="textmate" />
@@ -414,7 +414,7 @@
       <removed_mapping ext="*.log.?" approved="true" type="textmate" />
       <removed_mapping pattern="psrc" approved="true" type="textmate" />
       <removed_mapping ext="psrc" approved="true" type="textmate" />
-      <removed_mapping ext="log" approved="true" type="textmate" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="log" approved="true" type="textmate" />
       <removed_mapping pattern="vbs" approved="true" type="textmate" />
       <removed_mapping ext="vbs" approved="true" type="textmate" />
