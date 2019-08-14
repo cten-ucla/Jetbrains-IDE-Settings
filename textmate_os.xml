@@ -192,10 +192,6 @@
           <option name="path" value="$APPLICATION_HOME_DIR$/plugins/textmate/lib/bundles/objective-c" />
         </BundleConfigBean>
         <BundleConfigBean>
-          <option name="name" value="C" />
-          <option name="path" value="$USER_HOME$/Dropbox/Textmate Bundles/c.tmbundle" />
-        </BundleConfigBean>
-        <BundleConfigBean>
           <option name="name" value="javascript" />
           <option name="path" value="$APPLICATION_HOME_DIR$/plugins/textmate/lib/bundles/javascript" />
         </BundleConfigBean>
