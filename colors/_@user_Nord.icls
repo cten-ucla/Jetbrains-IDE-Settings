@@ -3,7 +3,7 @@
     <property name="created">2019-08-10T12:18:36</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-09-12T18:22:31</property>
+    <property name="modified">2019-09-12T18:25:06</property>
     <property name="originalScheme">Nord</property>
   </metaInfo>
   <colors>
@@ -1458,8 +1458,8 @@
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="PY.KEYWORD" baseAttributes="" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="" />
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1477,7 +1477,7 @@
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="PY.STRING.B" baseAttributes="" />
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="QL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
