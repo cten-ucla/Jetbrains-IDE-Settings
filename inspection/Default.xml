@@ -14,6 +14,7 @@
         <option value="src.courses.quarter.*" />
         <option value="lib.Element" />
         <option value="lib.NetList" />
+        <option value="csrf_token" />
       </list>
     </option>
   </inspection_tool>
