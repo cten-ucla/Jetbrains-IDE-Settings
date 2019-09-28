@@ -20,7 +20,7 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="Black" description="Black is the uncompromising Python code formatter." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Black" description="Black is the uncompromising Python code formatter." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Documents/bmech_lab/dug_migration/venv/bin/black" />
       <option name="PARAMETERS" value="&quot;$FilePath$&quot;" />
