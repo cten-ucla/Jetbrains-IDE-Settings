@@ -22,6 +22,7 @@
         <option value="lib.Element" />
         <option value="lib.NetList" />
         <option value="csrf_token" />
+        <option value="typing.Generator.__await__" />
       </list>
     </option>
   </inspection_tool>
