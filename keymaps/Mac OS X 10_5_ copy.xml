@@ -36,10 +36,18 @@
   <action id="PascalDeVink.thesaurusLookup">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="SetShortcutAction" />
+  <action id="SmartSearchAction">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="Tool_External Tools_Black">
     <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
