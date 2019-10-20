@@ -3,7 +3,7 @@
     <property name="created">2019-08-10T12:18:36</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-10-19T23:56:49</property>
+    <property name="modified">2019-10-20T13:07:05</property>
     <property name="originalScheme">Nord</property>
   </metaInfo>
   <colors>
@@ -389,7 +389,7 @@
         <option name="FOREGROUND" value="5e81ac" />
       </value>
     </option>
-    <option name="CSS.KEYWORD" baseAttributes="" />
+    <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="81a1c1" />
@@ -400,13 +400,13 @@
         <option name="FOREGROUND" value="88c0d0" />
       </value>
     </option>
-    <option name="CSS.TAG_NAME" baseAttributes="" />
+    <option name="CSS.TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="CSS.UNICODE.RANGE">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -978,11 +978,11 @@
         <option name="FOREGROUND" value="81a1c1" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="" />
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="" />
-    <option name="HTML_ENTITY_REFERENCE" baseAttributes="" />
-    <option name="HTML_TAG" baseAttributes="" />
-    <option name="HTML_TAG_NAME" baseAttributes="" />
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
+    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8dee9" />
@@ -1808,8 +1808,8 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="" />
-    <option name="XML_ENTITY_REFERENCE" baseAttributes="" />
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_NS_PREFIX">
       <value>
         <option name="FOREGROUND" value="88c0d0" />
@@ -1829,8 +1829,8 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="XML_TAG_DATA" baseAttributes="" />
-    <option name="XML_TAG_NAME" baseAttributes="" />
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
+    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.KEYWORD" baseAttributes="" />
     <option name="XPATH.XPATH_NAME">
       <value>
