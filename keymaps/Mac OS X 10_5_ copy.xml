@@ -64,10 +64,11 @@
   <action id="PascalDeVink.thesaurusLookup">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="ProjectViewChangeView" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
-    <keyboard-shortcut first-keystroke="meta f1" />
+    <keyboard-shortcut first-keystroke="alt f1" />
   </action>
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
@@ -75,6 +76,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="SelectIn" />
   <action id="SetShortcutAction" />
   <action id="ShowContent" />
   <action id="ShowErrorDescription" />
