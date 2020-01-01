@@ -76,14 +76,14 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="SearchAction">
+    <keyboard-shortcut first-keystroke="shift meta alt d" />
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="SelectIn" />
   <action id="SetShortcutAction" />
   <action id="ShowContent" />
   <action id="ShowErrorDescription" />
-  <action id="SmartSearchAction">
-    <keyboard-shortcut first-keystroke="shift meta d" />
-    <keyboard-shortcut first-keystroke="f1" />
-  </action>
   <action id="SurroundWith" />
   <action id="Tool_External Tools_Black">
     <keyboard-shortcut first-keystroke="shift meta b" />
