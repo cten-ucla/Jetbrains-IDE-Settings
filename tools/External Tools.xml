@@ -1,7 +1,7 @@
 <toolSet name="External Tools">
   <tool name="Maple" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="/Library/Frameworks/Maple.framework/Versions/2017/bin/maple" />
+      <option name="COMMAND" value="/Library/Frameworks/Maple.framework/Versions/2019/bin/maple" />
       <option name="PARAMETERS" value="-q $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$FileParentDir$" />
     </exec>
@@ -20,9 +20,9 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="Black" description="Black is the uncompromising Python code formatter." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="Black" description="Black is the uncompromising Python code formatter." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/Documents/bmech_lab/dug_migration/venv/bin/black" />
+      <option name="COMMAND" value="$ContentRoot$/venv/bin/black" />
       <option name="PARAMETERS" value="&quot;$FilePath$&quot;" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
