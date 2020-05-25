@@ -10,6 +10,7 @@
     <entry key="ide.tooltip.initialDelay" value="1095" />
     <entry key="editor.keep.completion.hints.longer" value="true" />
     <entry key="ide.tree.ui.experimental" value="false" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
