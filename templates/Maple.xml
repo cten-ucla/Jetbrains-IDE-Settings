@@ -1,5 +1,5 @@
 <templateSet group="Maple">
-  <template name="sdl" value="#══════════════════════════════════════════════════════════════════════════════" description="Adds a separator line &quot;═&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="sdl" value="#═══════════════════════════════════════════════════════════════════════════════════════" description="Adds a separator line &quot;═&quot;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -22,7 +22,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="stl" value="#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" description="Adds a separator thick line of &quot;━&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="stl" value="#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" description="Adds a separator thick line of &quot;━&quot;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -45,7 +45,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="sdd" value="#╔════════════════════════════════════════════════════════════════════════════╗" description="Add fancy double-lined separator that opens down" toReformat="false" toShortenFQNames="true">
+  <template name="sdd" value="#╔═════════════════════════════════════════════════════════════════════════════════════╗" description="Add fancy double-lined separator that opens down" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -68,7 +68,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="sdu" value="#╚════════════════════════════════════════════════════════════════════════════╝" description="Add fancy double-lined separator that opens up" toReformat="false" toShortenFQNames="true">
+  <template name="sdu" value="#╚═════════════════════════════════════════════════════════════════════════════════════╝" description="Add fancy double-lined separator that opens up" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -91,7 +91,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="su" value="#┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┙" description="Add fancy thick separator that opens up" toReformat="false" toShortenFQNames="true">
+  <template name="su" value="#┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┙" description="Add fancy thick separator that opens up" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -114,7 +114,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="sd" value="#┍━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑" description="Add fancy thick separator that opens down" toReformat="false" toShortenFQNames="true">
+  <template name="sd" value="#┍━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑" description="Add fancy thick separator that opens down" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -137,7 +137,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="sl" value="#──────────────────────────────────────────────────────────────────────────────" description="Adds a  separator line" toReformat="false" toShortenFQNames="true">
+  <template name="sl" value="#───────────────────────────────────────────────────────────────────────────────────────" description="Adds a  separator line" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="BIBTEX" value="false" />
       <option name="Bash" value="false" />
@@ -160,7 +160,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="b-title" value="#╔════════════════════════════════════════════════════════════════════════════╗&#10;#║ $title$                                                                    ║&#10;#╚════════════════════════════════════════════════════════════════════════════╝" description="A section title block" toReformat="false" toShortenFQNames="true">
+  <template name="b-title" value="#╔═════════════════════════════════════════════════════════════════════════════════════╗&#10;#║ $title$                                                                             ║&#10;#╚═════════════════════════════════════════════════════════════════════════════════════╝" description="A section title block" toReformat="false" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="BIBTEX" value="false" />
@@ -184,7 +184,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="b-desc" value="#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━&#10;# Description&#10;#──────────────────────────────────────────────────────────────────────────────&#10;# $desc$&#10;#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" description="A description block" toReformat="false" toShortenFQNames="true">
+  <template name="b-desc" value="#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━&#10;# Description&#10;#───────────────────────────────────────────────────────────────────────────────────────&#10;# $desc$&#10;#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" description="A description block" toReformat="false" toShortenFQNames="true">
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="BIBTEX" value="false" />
@@ -209,7 +209,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="b-generic" value="#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━&#10;# $header$&#10;#──────────────────────────────────────────────────────────────────────────────&#10;# $content$&#10;#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" description="A generic block" toReformat="false" toShortenFQNames="true">
+  <template name="b-generic" value="#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━&#10;# $header$&#10;#───────────────────────────────────────────────────────────────────────────────────────&#10;# $content$&#10;#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" description="A generic block" toReformat="false" toShortenFQNames="true">
     <variable name="header" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
