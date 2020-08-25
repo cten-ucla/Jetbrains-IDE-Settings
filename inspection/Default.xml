@@ -41,6 +41,7 @@
         <option value="lib.NetList" />
         <option value="csrf_token" />
         <option value="typing.Generator.__await__" />
+        <option value="read_csv.read_file" />
       </list>
     </option>
   </inspection_tool>
