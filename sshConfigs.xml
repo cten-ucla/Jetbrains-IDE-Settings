@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="github.com" id="d1565fa7-5a76-4ce8-ad42-58fbd446df8d" keyPath="$USER_HOME$/.ssh/id_rsa_github" port="22" nameFormat="DESCRIPTIVE" username="cten-ucla" />
+      <sshConfig host="github.com" id="d1565fa7-5a76-4ce8-ad42-58fbd446df8d" keyPath="$USER_HOME$/.ssh/id_rsa_github" port="22" nameFormat="DESCRIPTIVE" username="git" />
     </configs>
   </component>
 </application>
