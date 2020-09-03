@@ -71,6 +71,7 @@
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt f1" />
   </action>
+  <action id="RInsertPipeAction" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="RestoreDefaultLayout" />
