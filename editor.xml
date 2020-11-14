@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="AUTO_POPUP_COMPLETION_LOOKUP" value="false" />
     <option name="AUTOINSERT_PAIR_BRACKET" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
