@@ -96,6 +96,9 @@
   <action id="Tool_External Tools_Maple">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
+  <action id="Tool_External Tools_Matlab">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ReformatCommitMessage">
     <keyboard-shortcut first-keystroke="meta alt l" />
