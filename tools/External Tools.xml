@@ -27,4 +27,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="Matlab" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/MATLAB_R2020b.app/bin/matlab" />
+      <option name="PARAMETERS" value="-nodesktop -nosplash $FileDirName$" />
+      <option name="WORKING_DIRECTORY" value="$FileParentDir$" />
+    </exec>
+  </tool>
 </toolSet>
