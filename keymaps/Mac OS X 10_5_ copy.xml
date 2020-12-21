@@ -71,7 +71,10 @@
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt f1" />
   </action>
-  <action id="RInsertPipeAction" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="RestoreDefaultLayout" />
@@ -87,17 +90,11 @@
   <action id="ShowContent" />
   <action id="ShowErrorDescription" />
   <action id="SurroundWith" />
-  <action id="Tool_External Tools_Black">
-    <keyboard-shortcut first-keystroke="shift meta b" />
-  </action>
   <action id="Tool_External Tools_MacSpice">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="Tool_External Tools_Maple">
     <keyboard-shortcut first-keystroke="shift meta m" />
-  </action>
-  <action id="Tool_External Tools_Matlab">
-    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ReformatCommitMessage">
