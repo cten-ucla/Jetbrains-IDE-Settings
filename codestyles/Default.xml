@@ -17,9 +17,9 @@
   </Objective-C>
   <Objective-C-extensions>
     <extensions>
+      <pair source="c" header="h" fileNamingConvention="NONE" />
       <pair source="cpp" header="h" fileNamingConvention="NONE" />
       <pair source="cpp" header="hpp" fileNamingConvention="NONE" />
-      <pair source="c" header="h" fileNamingConvention="NONE" />
     </extensions>
   </Objective-C-extensions>
   <codeStyleSettings language="JSON">
