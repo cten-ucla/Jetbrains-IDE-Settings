@@ -6,7 +6,6 @@
     <option name="INDENT_DIRECTIVE_AS_CODE" value="true" />
     <option name="KEEP_DIRECTIVE_AT_FIRST_COLUMN" value="false" />
     <option name="FUNCTION_PARAMETERS_NEW_LINE_AFTER_LPAR" value="true" />
-    <option name="FUNCTION_CALL_ARGUMENTS_NEW_LINE_AFTER_LPAR" value="true" />
     <option name="SPACE_BEFORE_SUPERCLASS_COLON" value="false" />
     <option name="SPACE_BEFORE_INIT_LIST_COLON" value="false" />
     <option name="SPACE_BEFORE_POINTER_IN_DECLARATION" value="false" />
@@ -17,9 +16,9 @@
   </Objective-C>
   <Objective-C-extensions>
     <extensions>
+      <pair source="c" header="h" fileNamingConvention="NONE" />
       <pair source="cpp" header="h" fileNamingConvention="NONE" />
       <pair source="cpp" header="hpp" fileNamingConvention="NONE" />
-      <pair source="c" header="h" fileNamingConvention="NONE" />
     </extensions>
   </Objective-C-extensions>
   <codeStyleSettings language="JSON">
