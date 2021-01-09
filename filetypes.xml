@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="find_os" type="AUTO_DETECTED" />
       <mapping ext="mp4" type="Native" />
-      <mapping ext="pde" type="ObjectiveC" />
       <mapping pattern="stdout" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="net" type="PLAIN_TEXT" />
@@ -23,6 +22,7 @@
       <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <removed_mapping pattern=".r" approved="true" type="ObjectiveC" />
       <removed_mapping pattern="mm" approved="true" type="textmate" />
+      <mapping ext="pde" type="ObjectiveC" />
     </extensionMap>
   </component>
 </application>
