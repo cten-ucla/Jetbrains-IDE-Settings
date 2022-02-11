@@ -1,0 +1,15 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
+  <action id="Docker.RemoteServers.StartContainer" />
+  <action id="EditorSplitLine" />
+  <action id="SplitChooser.Duplicate" />
+  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="ViewSource" />
+</keymap>
