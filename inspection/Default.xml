@@ -58,6 +58,7 @@
         <option value="csrf_token" />
         <option value="typing.Generator.__await__" />
         <option value="read_csv.read_file" />
+        <option value="PySide6.QtWidgets.clicked.connect" />
       </list>
     </option>
   </inspection_tool>
