@@ -18,6 +18,7 @@
         <entry key="CwmWireStatsWidgetFactory" value="false" />
         <entry key="Memory" value="true" />
         <entry key="mtStatusBar" value="false" />
+        <entry key="pythonInterpreterWidget" value="false" />
       </map>
     </option>
   </component>
